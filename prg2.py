@@ -1,0 +1,6 @@
+n1=str(int(input("enter a num:")))
+n2=str(float(input("enter num2:")))
+n3=int(float(input("enter num2:")))
+print(type(n1))
+print(type(n2)) 
+print(type(n3))
