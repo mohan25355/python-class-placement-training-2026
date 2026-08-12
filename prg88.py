@@ -1,0 +1,11 @@
+company={
+    "HR":{"manager":"sarah",
+          "employees":5
+          },
+    "IT":{"manager":"john",
+          "employees":10
+    }
+}
+print("HR:",company["HR"]["manager"])
+print("HR:",company["IT"]["manager"])
+print("emp:",company["HR"]["employees"])
