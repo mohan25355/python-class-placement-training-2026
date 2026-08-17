@@ -1,0 +1,8 @@
+f=open("source2.txt","x")
+f.close()
+f=open("source2.txt","w")
+f.write("Hello World \n")
+f.close()
+f=open("source2.txt","r")
+print(f.read())
+f.close()
