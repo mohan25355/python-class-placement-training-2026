@@ -1,0 +1,5 @@
+f=open("source.txt","w+")
+f.write("hello world \n")
+f.write("vanakam!!")
+print(f.read())
+f.close()
